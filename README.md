@@ -1,10 +1,10 @@
 # Info
 
-This libary can be used to enhance the [looplab/eventhorizon](https://github.com/looplab/eventhorizon) library with the functionality to trace the `X-Correlation-ID` through events.
+This libary can be used to enhance the [Clarilab/eventhorizon](https://github.com/Clarilab/eventhorizon) library with the functionality to trace the `X-Correlation-ID` through events.
 
 Supported Go Versions:
 
-This library supports two most recent Go, currently 1.16
+This library supports two most recent Go, currently 1.23.1
 
 # Install
 
@@ -40,7 +40,7 @@ func someFunction(ctx context.Context, correlationID string) {
 
 ```
 
-If the Correlation-ID is already present in the context, simply initialize this libary to use it in combination with the [looplab/eventhorizon](https://github.com/looplab/eventhorizon) library.
+If the Correlation-ID is already present in the context, simply initialize this libary to use it in combination with the [Clarilab/eventhorizon](https://github.com/Clarilab/eventhorizon) library.
 
 ```Go
 import (
