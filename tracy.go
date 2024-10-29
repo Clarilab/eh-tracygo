@@ -17,7 +17,7 @@ package ehtracygo
 import (
 	"context"
 
-	eh "github.com/looplab/eventhorizon"
+	eh "github.com/Clarilab/eventhorizon"
 )
 
 // Strings used to marshal context values.
